@@ -1,1 +1,3 @@
-await page.waitForTimeout(5000);
+await page.locator("#login").click({
+    force: true
+});
